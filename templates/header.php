@@ -19,6 +19,9 @@
   <body>
       <header>
           <nav class="navbar navbar-dark bg-primary">
+              <a class="navbar-brand" href="https://bookimie.fr">
+                <img src="./src/assets/img/logoIMIE.png" height="70" alt="Logo IMIE">
+              </a>
           </nav>
       </header>
       <main>
