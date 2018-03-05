@@ -13,14 +13,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="./src/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="./src/assets/css/style.css">
   </head>
   <body>
       <header>
-        <nav>
-            test
+        <nav class="navbar navbar-dark bg-dark">
+            <span class="navbar-brand mb-0 h1">Navbar</span>
         </nav>
       </header>
       <main>
-      
