@@ -9,11 +9,12 @@
           gtag('js', new Date());
           gtag('config', 'UA-115023162-1');
       </script>
+    <title>imiebook-ui</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>imiebook-ui</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   </head>
   <body>
       <header>
