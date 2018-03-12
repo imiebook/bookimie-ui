@@ -27,3 +27,7 @@ main{
 	background-color: white;
 	color:#007bff;
 }
+
+.invalid-feedback-server{
+	display: none;;
+}
