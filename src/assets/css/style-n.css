@@ -9,8 +9,17 @@
 .profil-block
 {
   background-color:#CFF1FF;
-  border-radius:5px;
   padding:20px 20px;
+}
+
+.middle-align-profile-picture
+{
   margin-top:-100px;
   padding-top:110px;
+}
+
+.title-edit
+{
+  margin:10px 0px 0px 0px;
+  padding:10px;
 }

@@ -7,7 +7,7 @@
       <img src="img-temp/obama.jpg" class="profil-img rounded-circle border-secondary">
     </div>
 
-    <div class="col-md-12 profil-block">
+    <div class="col-md-12 profil-block rounded middle-align-profile-picture">
 
     <form>
 
