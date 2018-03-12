@@ -11,7 +11,10 @@
         <label for="exampleInputPassword1">Mot de passe</label>
         <input type="password" class="form-control" id="InputPassword1" placeholder="Mot de passe">
       </div>
-      <button type="submit" class="btn btn-primary">Envoyer</button>
+      <div class="row justify-content-around">
+        <button type="submit" id="mdpoublie"class="btn btn-primary">Mot de passe oublié ?</button>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </div>
     </form>
 </div>
 

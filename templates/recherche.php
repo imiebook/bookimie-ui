@@ -1,6 +1,24 @@
 <?php include("header.php")?>
 
-    <nav aria-label="Page navigation example">
+      <div id="sidebar" class="col-12 col-md-3 col-xl-2 bd-sidebar" style="border: 1px solid black">
+        <div>
+          <ul>
+          <li>
+            1
+          </li>
+          <li>
+            2
+          </li>
+          </ul>
+        </div>
+      </div>
+
+
+    <article class="col-6">
+      Résultat de recherche
+    </article>
+
+    <nav id="pagination" aria-label="Page navigation example">
       <ul class="pagination justify-content-center">
         <li class="page-item disabled">
           <a class="page-link" href="#" tabindex="-1">Previous</a>
@@ -13,5 +31,6 @@
         </li>
       </ul>
     </nav>
+
 
 <?php include("footer.php")?>
