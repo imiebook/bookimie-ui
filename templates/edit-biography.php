@@ -1,4 +1,4 @@
-<?php include("../header.php")?>
+<?php include("header.php")?>
 
 <style>
 .profil-img
@@ -23,7 +23,7 @@
   <div class="row justify-content-center">
 
     <div class="row justify-content-center">
-      <img src="obama.jpg" class="profil-img rounded-circle">
+      <img src="img-temp/obama.jpg" class="profil-img rounded-circle border-secondary">
     </div>
 
     <div class="col-md-12 profil-block">
@@ -86,9 +86,11 @@
       </div>
 
       <div class="row justify-content-end">
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-light">Annuler</button>
-          <button type="button" class="btn btn-primary">Enregistrer</button>
+        <div class="col-xs-12 col-md-3">
+          <button type="button" class="btn btn-primary btn-block float-right">Enregistrer</button>
+        </div>
+        <div class="col-xs-12 col-md-2">
+          <button type="button" class="btn btn-link btn-block">Annuler</button>
         </div>
       </div>
 
@@ -98,4 +100,4 @@
   </div>
 </div>
 
-<?php include("../footer.php")?>
+<?php include("footer.php")?>
