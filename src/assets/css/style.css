@@ -9,17 +9,20 @@
 /*END OF NAVBAR*/
 
 /*BREADCRUMB*/
-#breadcrumb, .navbar{
+#breadcrumb, #navbar{
 	position: fixed;
 }
 #breadcrumb{
-	margin-bottom: 20px;
+	top:70px;
+	left: 250px;
 }
 
-/*SIDEBAR*/
+/*SIDEBAR
+
 #sidebar{
 	height: calc(100vh - 3rem)
 }
+*/
 
 /*END OF SIDEBAR*/
 
@@ -39,5 +42,15 @@
 
 /*SEARCH RESULT*/
 .searchResults{
-	margin-top: 200px;
+	margin-top: 150px;
+	margin-left: 250px;
+	margin-bottom: 40px;
+	border: 1px solid red;
+}
+.searchResults article{
+	border: 1px solid black;
+	height: 200px;;
+}
+.img-fluid{
+	height:inherit;
 }

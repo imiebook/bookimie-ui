@@ -25,11 +25,11 @@
                 <img src="/src/assets/img/logoIMIE.png" alt="Logo IMIE">
               </a>
           </nav>
-          <nav id="breadcrumb" aria-label="breadcrumb">
+          <div id="breadcrumb" aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Accueil</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Recherche</li>
               </ol>
-        </nav>
+        </div>
       </header>
       <main>

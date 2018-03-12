@@ -1,10 +1,24 @@
 <?php include("header.php")?>
 
 <section class="searchResults">
-	<article>
-		Résultat de recherche
+	Résultats de recherche
+	<article class="row">
+		<img src="/src/assets/img/gabriel.jpg" alt="Photo de profil Gabriel Pied" class="img-fluid">
+		<div class="col">
+			<span id="name">Gabriel Pied</span>
+			<span><span >Chef de projet</span> | <span>Le Phare</span></span>
+			<span>Ceci est un texte de description du profil</span>
+		</div>
+		<div class="col">
+			<span>PHP</span>
+			<span>Gestion de projet</span>
+			<span>CSS</span>
+			<button type="button" class="btn btn-primary">Voir le profil</button>
+			<button type="button" class="btn btn-primary">Contacter</button>
+		</div>
 	</article>
 </section>
+
 <nav id="pagination" aria-label="Page navigation example">
 	<ul class="pagination justify-content-center">
 		<li class="page-item disabled">
