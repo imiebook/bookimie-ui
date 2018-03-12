@@ -19,7 +19,7 @@
   </head>
   <body>
       <header>
-          <nav class="navbar navbar-dark bg-primary fixed-top">
+          <nav id="navbar" class="navbar navbar-dark bg-primary fixed-top">
               <a class="navbar-brand" href="https://bookimie.fr">
                 <img src="/src/assets/img/logoIMIE.png" alt="Logo IMIE">
               </a>

@@ -5,23 +5,28 @@
 .navbar img{
 	height: 70px;
 }
+
 /*END OF NAVBAR*/
+
+/*BREADCRUMB*/
+#breadcrumb, .navbar{
+	position: fixed;
+}
+#breadcrumb{
+	margin-bottom: 20px;
+}
 
 /*SIDEBAR*/
 #sidebar{
 	height: calc(100vh - 3rem)
 }
-.breadcrumb{
-	margin-bottom: 0px;
-}
+
 /*END OF SIDEBAR*/
 
 #pagination{
 	margin-bottom: 1rem;
 }
-main{
-		margin-top:70px;
-}
+
 /*mdp oublié*/
 #mdpoublie{
 	background-color: white;
@@ -31,8 +36,14 @@ main{
 .invalid-feedback-server{
 	display: none;;
 }
+<<<<<<< HEAD
 
 .block-gdggdgdgd
 {
 	
+=======
+/*SEARCH RESULT*/
+.searchResults{
+	margin-top: 200px;
+>>>>>>> 713cea99657534d7ada5fcdb225e6ea70cddffa0
 }
