@@ -15,8 +15,10 @@
 				<span>Gestion de projet</span>
 				<span>CSS</span>
 			</div>
-			<button type="button" class="btn btn-primary">Voir le profil</button>
-			<button type="button" class="btn btn-primary bkdwhite">Contacter</button>
+			<div class="button">
+				<button type="button" class="btn btn-primary">Voir le profil</button>
+				<button type="button" class="btn btn-primary bkdwhite">Contacter</button>
+			</div>
 		</div>
 	</article>
 </section>

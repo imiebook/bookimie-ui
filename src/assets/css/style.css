@@ -58,11 +58,11 @@
 	margin-right: 0;
 }
 
-article:first-child {
+#searchResults  article:first-child {
     margin-top: 0px;
 }
 
-article {
+#searchResults article {
     margin-top: 20px;
 }
 
@@ -73,7 +73,13 @@ article {
 	color: #2699FB;
 	border: 1px solid #BCE0FD;
 	margin-top: 10px;
+	
 }
 #searchResults article .col{
 	padding: 20px;
+}
+#searchResults .button{
+	position: absolute;
+	bottom:20px;
+	right: 20px;
 }
