@@ -1,12 +1,17 @@
 <template>
-  <section class="login">
-    <section class="container">
-      <p>{{msg}}</p>
+  <section>
+    <header/>
+    <section class="login">
+      <section class="container">
+        <p>{{msg}}</p>
+      </section>
     </section>
   </section>
 </template>
 
 <script>
+import header from '@/components/header'
+
 export default {
   name: 'Login',
   data () {
