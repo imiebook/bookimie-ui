@@ -1,5 +1,5 @@
 <?php include("header.php")?>
-
+<!-- SIDEBAR
       <div id="sidebar" class="col-12 col-md-3 col-xl-2 bd-sidebar" style="border: 1px solid black">
         <div>
           <ul>
@@ -12,12 +12,12 @@
           </ul>
         </div>
       </div>
-
-
-    <article class="col-6">
+-->
+  <div class="searchResults">
+    <article>
       Résultat de recherche
     </article>
-
+</div>
     <nav id="pagination" aria-label="Page navigation example">
       <ul class="pagination justify-content-center">
         <li class="page-item disabled">
