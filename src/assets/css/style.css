@@ -1,0 +1,79 @@
+/*NAVBAR*/
+.navbar, navbar-brand{
+	height: 70px;
+}
+.navbar img{
+	height: 70px;
+}
+
+/*END OF NAVBAR*/
+
+/*BREADCRUMB*/
+#breadcrumb, #navbar{
+	position: fixed;
+}
+#breadcrumb{
+	top:70px;
+	left: 250px;
+}
+
+/*SIDEBAR
+
+#sidebar{
+	height: calc(100vh - 3rem)
+}
+*/
+
+/*END OF SIDEBAR*/
+
+#pagination{
+	margin-bottom: 1rem;
+}
+
+/*btn background white*/
+.bkdwhite{
+	background-color: transparent;
+	color:#007bff;
+}
+
+.invalid-feedback-server{
+	display: none;;
+}
+
+/*SEARCH RESULT*/
+#searchResults{
+	margin-top: 150px;
+	margin-left: 250px;
+	margin-bottom: 40px;
+}
+#searchResults article{
+	height: 200px;
+	background-color: #F1F9FF;
+}
+#searchResults .img-fluid{
+	height:inherit;
+}
+.row{
+	margin-left:0;
+	margin-right: 0;
+}
+
+article:first-child {
+    margin-top: 0px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+.competences span{
+	border-radius: .25rem;
+	padding: .35rem;
+	background: white;
+	color: #2699FB;
+	border: 1px solid #BCE0FD;
+	margin-top: 10px;
+}
+#searchResults article .col{
+	padding: 20px;
+}
