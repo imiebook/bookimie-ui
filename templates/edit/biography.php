@@ -1,8 +1,32 @@
 <?php include("../header.php")?>
 
+<style>
+.profil-img
+{
+	width: 200px;
+	height: 200px;
+  z-index:20;
+}
+
+.profil-block
+{
+  background-color:#CFF1FF;
+  border-radius:5px;
+  padding:20px 20px;
+  margin-top:-100px;
+  padding-top:110px;
+}
+
+</style>
+
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-12" style="background-color:#CFF1FF;border-radius:5px; padding:20px 20px;">
+
+    <div class="row justify-content-center">
+      <img src="obama.jpg" class="profil-img rounded-circle">
+    </div>
+
+    <div class="col-md-12 profil-block">
 
     <form>
 
