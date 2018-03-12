@@ -30,9 +30,9 @@
 	margin-bottom: 1rem;
 }
 
-/*mdp oublié*/
-#mdpoublie{
-	background-color: white;
+/*btn background white*/
+.bkdwhite{
+	background-color: transparent;
 	color:#007bff;
 }
 
@@ -41,16 +41,39 @@
 }
 
 /*SEARCH RESULT*/
-.searchResults{
+#searchResults{
 	margin-top: 150px;
 	margin-left: 250px;
 	margin-bottom: 40px;
-	border: 1px solid red;
 }
-.searchResults article{
-	border: 1px solid black;
-	height: 200px;;
+#searchResults article{
+	height: 200px;
+	background-color: #F1F9FF;
 }
-.img-fluid{
+#searchResults .img-fluid{
 	height:inherit;
+}
+.row{
+	margin-left:0;
+	margin-right: 0;
+}
+
+article:first-child {
+    margin-top: 0px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+.competences span{
+	border-radius: .25rem;
+	padding: .35rem;
+	background: white;
+	color: #2699FB;
+	border: 1px solid #BCE0FD;
+	margin-top: 10px;
+}
+#searchResults article .col{
+	padding: 20px;
 }

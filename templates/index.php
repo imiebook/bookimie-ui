@@ -28,7 +28,7 @@
 			</div>
 
 			<div class="row justify-content-around">
-				<button type="submit" id="mdpoublie"class="btn btn-primary">Mot de passe oublié ?</button>
+				<button type="submit" class="btn btn-primary bkdwhite">Mot de passe oublié ?</button>
 				<button type="submit" class="btn btn-primary">Envoyer</button>
 			</div>
 
