@@ -17,12 +17,36 @@
 	left: 250px;
 }
 
-/*SIDEBAR
+/*VERTICAL SIDEBAR
 
 #sidebar{
 	height: calc(100vh - 3rem)
 }
 */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+	.sidebar-nav{
+		position:fixed;
+		top:100px;
+		left:15px;
+		background-color: skyblue;
+	}
+}
 
 /*END OF SIDEBAR*/
 
@@ -42,8 +66,8 @@
 
 /*SEARCH RESULT*/
 #searchResults{
-	margin-top: 150px;
-	margin-left: 250px;
+	margin-top: 100px;
+	margin-left: 0px;
 	margin-bottom: 40px;
 }
 #searchResults article{
