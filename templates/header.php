@@ -20,15 +20,16 @@
 	</head>
 	<body>
 		<header>
-			<nav id="navbar" class="navbar navbar-dark bg-primary fixed-top">
+			<nav id="navbar" class="navbar navbar-dark bg-primary fixed-top row">
 				<a class="navbar-brand" href="https://bookimie.fr">
 					<img src="/src/assets/img/logoIMIE.png" alt="Logo IMIE">
 				</a>
 				<form class="form-inline">
 					<input class="form-control mr-sm-2" type="search" placeholder="Rechercher un nom, un prénom ou une entreprise" aria-label="Search">
-					<button class="btn btn-outline-success" type="submit">Rechercher</button>
+					<button class="btn btn-outline-light" type="submit">Rechercher</button>
 				</form>
 			</nav>
+
 			<div id="breadcrumb" aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="#">Accueil</a></li>
@@ -36,4 +37,4 @@
 				</ol>
 			</div>
 		</header>
-		<main>
+		<main class="container-fluid">

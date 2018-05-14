@@ -1,7 +1,70 @@
 <?php include("header.php")?>
-
+<div class="row flex-xl-nowrap">
+	<section class="col-12 col-md-3 col-xl-2 bd-sidebar">
+		<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+			ceci est un test de navbar verticale et latérale
+		</nav>
+	</section>
+	</div>
 <section id="searchResults">
 	Résultats de recherche
+	<article class="row">
+		<img src="/src/assets/img/gabriel.jpg" alt="Photo de profil Gabriel Pied" class="img-fluid">
+		<div class="col">
+			<div class="name">Gabriel Pied</div>
+			<div class="jobAndCompany"><span>Chef de projet</span> | <span>Le Phare</span></div>
+			<div>Ceci est un texte de description du profil</div>
+		</div>
+		<div class="col">
+			<div class="competences">
+				<span>PHP</span>
+				<span>Gestion de projet</span>
+				<span>CSS</span>
+			</div>
+			<div class="button">
+				<button type="button" class="btn btn-primary">Voir le profil</button>
+				<button type="button" class="btn btn-primary bkdwhite">Contacter</button>
+			</div>
+		</div>
+	</article>
+	<article class="row">
+		<img src="/src/assets/img/gabriel.jpg" alt="Photo de profil Gabriel Pied" class="img-fluid">
+		<div class="col">
+			<div class="name">Gabriel Pied</div>
+			<div class="jobAndCompany"><span>Chef de projet</span> | <span>Le Phare</span></div>
+			<div>Ceci est un texte de description du profil</div>
+		</div>
+		<div class="col">
+			<div class="competences">
+				<span>PHP</span>
+				<span>Gestion de projet</span>
+				<span>CSS</span>
+			</div>
+			<div class="button">
+				<button type="button" class="btn btn-primary">Voir le profil</button>
+				<button type="button" class="btn btn-primary bkdwhite">Contacter</button>
+			</div>
+		</div>
+	</article>
+	<article class="row">
+		<img src="/src/assets/img/gabriel.jpg" alt="Photo de profil Gabriel Pied" class="img-fluid">
+		<div class="col">
+			<div class="name">Gabriel Pied</div>
+			<div class="jobAndCompany"><span>Chef de projet</span> | <span>Le Phare</span></div>
+			<div>Ceci est un texte de description du profil</div>
+		</div>
+		<div class="col">
+			<div class="competences">
+				<span>PHP</span>
+				<span>Gestion de projet</span>
+				<span>CSS</span>
+			</div>
+			<div class="button">
+				<button type="button" class="btn btn-primary">Voir le profil</button>
+				<button type="button" class="btn btn-primary bkdwhite">Contacter</button>
+			</div>
+		</div>
+	</article>
 	<article class="row">
 		<img src="/src/assets/img/gabriel.jpg" alt="Photo de profil Gabriel Pied" class="img-fluid">
 		<div class="col">
@@ -36,6 +99,5 @@
 		</li>
 	</ul>
 </nav>
-
 
 <?php include("footer.php")?>

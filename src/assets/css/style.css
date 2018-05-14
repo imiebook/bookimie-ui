@@ -73,7 +73,8 @@
 	color: #2699FB;
 	border: 1px solid #BCE0FD;
 	margin-top: 10px;
-	
+	margin-bottom: 10px;
+	hyphens: none; /*césure*/
 }
 #searchResults article .col{
 	padding: 20px;
